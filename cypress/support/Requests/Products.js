@@ -14,7 +14,7 @@ Cypress.Commands.add('login',(user,pass) => {
             Cypress.env().token = response.body.token;
 
         });
-})
+});
 
 Cypress.Commands.add('SearchProductAndDeteleIt',(data)=> {
     cy.request({
@@ -31,9 +31,9 @@ Cypress.Commands.add('SearchProductAndDeteleIt',(data)=> {
             headers: {
                 Authorization: `Bearer ${Cypress.env().token}`
             }
-        })
-    })
-})
+        });
+    });
+});
 
 
 
@@ -49,8 +49,8 @@ Cypress.Commands.add('CreateNewProduct',(data) => {
         window.localStorage.setItem('NewProductId',response.body.product._id);
         Cypress.env().NewProductId = response.body.product._id;
         cy.log(Cypress.env().NewProductId)
-    }) 
-})
+    });
+});
 
 Cypress.Commands.add('EditProduct',(body) => {
     cy.request({
@@ -60,5 +60,5 @@ Cypress.Commands.add('EditProduct',(body) => {
         headers: {
             Authorization: `Bearer ${Cypress.env().token}`
         }
-    })
-})
+    });
+});
