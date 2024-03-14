@@ -1,0 +1,15 @@
+{
+    "Product1": {
+        "name": "Remera Rosa",
+        "id":3170,
+        "price":4599,
+        "img":"https://www.mrporter.com/variants/images/1647597324163545/in/w1200_q60.jpg"
+    },
+    "Product2": {
+        "name": "Remera Negra",
+        "price":6000,
+        "img":"https://www.mrporter.com/variants/images/1647597328741343/in/w1200_q60.jpg"
+    }
+    
+}
+

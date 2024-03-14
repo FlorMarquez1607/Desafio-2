@@ -1,0 +1,15 @@
+{
+  "name": "desafio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b chrome"
+  },
+  "author": "Florencia Marquez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
